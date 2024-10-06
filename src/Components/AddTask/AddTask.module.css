@@ -1,0 +1,24 @@
+.Container {
+  display: flex;
+  gap: 0.625rem;
+  margin-top: -3.625rem;
+  flex-direction: column;
+}
+
+.Container input {
+  flex: auto;
+}
+
+.Container button {
+  width: 100%;
+}
+
+@media (min-width: 480px) {
+  .Container {
+    flex-direction: row;
+  }
+
+  .Container button {
+    width: 90px;
+  }
+}

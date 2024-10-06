@@ -1,0 +1,18 @@
+.Button {
+  background-color: var(--blue-dark);
+  border-radius: 8px;
+  border: none;
+  height: 52px;
+  color: var(--gray-100);
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3125rem;
+}
+
+.Button:hover {
+  background-color: var(--blue);
+}
